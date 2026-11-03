@@ -105,16 +105,23 @@ Here, $\ell_+$ and $\ell_-$ are the chosen and rejected sequence log probabiliti
 
 ### 3. Historical training curriculum
 
-| Stage | Training | Epochs |
-|:--|:--|--:|
-| Round 3 | Structured arithmetic/algebra preferences | 5 |
-| Round 4 | Matched treatment continuation | 1 |
-| Round 5 | Original preference continuation | 1 |
-| Round 7 | Replay continuation | 1 |
-| Round 9 | Random E1 | 1 |
-| Round 9 | Random E2, AdamW restarted | 1 |
-| Round 9 | Random E3–E5, continued cosine schedule | 3 |
-| **Total** | **Seven sequential stages** | **13** |
+<div align="center">
+<table>
+  <thead>
+    <tr><th align="center">Stage</th><th align="center">Training</th><th align="center">Epochs</th></tr>
+  </thead>
+  <tbody>
+    <tr><td align="center">Round 3</td><td>Structured arithmetic/algebra preferences</td><td align="center">5</td></tr>
+    <tr><td align="center">Round 4</td><td>Matched treatment continuation</td><td align="center">1</td></tr>
+    <tr><td align="center">Round 5</td><td>Original preference continuation</td><td align="center">1</td></tr>
+    <tr><td align="center">Round 7</td><td>Replay continuation</td><td align="center">1</td></tr>
+    <tr><td align="center">Round 9</td><td>Random E1</td><td align="center">1</td></tr>
+    <tr><td align="center">Round 9</td><td>Random E2, AdamW restarted</td><td align="center">1</td></tr>
+    <tr><td align="center">Round 9</td><td>Random E3–E5, continued cosine schedule</td><td align="center">3</td></tr>
+    <tr><td align="center"><strong>Total</strong></td><td><strong>Seven sequential stages</strong></td><td align="center"><strong>13</strong></td></tr>
+  </tbody>
+</table>
+</div>
 
 ### Code and reproduction notes
 

@@ -8,6 +8,10 @@
 
 *A compact study of how structured preference data and staged fine-tuning can improve arithmetic and algebra performance in a character-level language model.*
 
+<p align="center"><img src="assets/Original%20vs%20Preference-Optimized%20NanoGPT.png" width="95%" alt="Conceptual illustration: original NanoGPT refusing math questions versus a preference-optimized NanoGPT producing answers" /></p>
+
+<sub>Conceptual illustration of the project goal; example answers are illustrative, not a measured before-and-after evaluation.</sub>
+
 </div>
 
 <!-- The SVG panels act as clickable navigation cards on GitHub. -->

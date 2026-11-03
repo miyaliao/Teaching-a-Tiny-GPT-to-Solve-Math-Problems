@@ -22,8 +22,6 @@
 
 ## Key Results
 
-### Final model at a glance
-
 <p align="center"><img src="assets/final-model-performance.png" width="100%" alt="Final selected Random E5: Val768 614/768 (79.95%) and Teacher680 521/680 (76.62%) under strict exact-match scoring" /></p>
 
 *Historical selected Round9 Random E5. These are two different development benchmarks, not a held-out final test; their percentages should not be interpreted as directly comparable.*

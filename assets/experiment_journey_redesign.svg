@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-label="Research journey from refusals and format failures through numerical diagnostics and structured preference data to improved validation accuracy">
+<rect width="1600" height="1100" fill="#F8FAFC"/>
+<rect x="63" y="52" width="7" height="58" rx="3" fill="#117F76" stroke="none" stroke-width="1"/>
+<text x="90" y="91" font-family="Inter, Inter Display, Arial, sans-serif" font-size="43" fill="#142338" font-weight="700">From Refusal to Reasoning</text>
+<text x="91" y="130" font-family="Inter, Inter Display, Arial, sans-serif" font-size="22" fill="#617186" font-weight="400">An evidence-led training journey for an 8.84M-parameter NanoGPT</text>
+<rect x="1240" y="58" width="288" height="36" rx="18.0" fill="#EAF8F5" stroke="none" stroke-width="1"/>
+<text x="1384.0" y="81.44" font-family="Inter, Inter Display, Arial, sans-serif" font-size="16" fill="#117F76" font-weight="700" text-anchor="middle">EXPERIMENT JOURNEY</text>
+<rect x="63" y="149" width="1472" height="54" rx="12" fill="#FFFFFF" stroke="#DFE6EE" stroke-width="1"/>
+<rect x="64" y="150" width="7" height="52" rx="3" fill="#117F76" stroke="none" stroke-width="1"/>
+<text x="87" y="184" font-family="Inter, Inter Display, Arial, sans-serif" font-size="18" fill="#117F76" font-weight="700">Core insight</text>
+<text x="216" y="184" font-family="Inter, Inter Display, Arial, sans-serif" font-size="18" fill="#142338" font-weight="400">A zero score concealed different failures; better formatting did not mean better arithmetic.</text>
+<rect x="66" y="226" width="715" height="313" rx="22" fill="#E9EEF4" stroke="none" stroke-width="1"/>
+<rect x="64" y="222" width="715" height="313" rx="22" fill="#FFFFFF" stroke="#DFE6EE" stroke-width="1.6"/>
+<rect x="64" y="222" width="8" height="313" rx="4" fill="#B94B47" stroke="none" stroke-width="1"/>
+<rect x="822" y="226" width="715" height="313" rx="22" fill="#E9EEF4" stroke="none" stroke-width="1"/>
+<rect x="820" y="222" width="715" height="313" rx="22" fill="#FFFFFF" stroke="#DFE6EE" stroke-width="1.6"/>
+<rect x="820" y="222" width="8" height="313" rx="4" fill="#AA651B" stroke="none" stroke-width="1"/>
+<rect x="66" y="558" width="715" height="318" rx="22" fill="#E9EEF4" stroke="none" stroke-width="1"/>
+<rect x="64" y="554" width="715" height="318" rx="22" fill="#FFFFFF" stroke="#DFE6EE" stroke-width="1.6"/>
+<rect x="64" y="554" width="8" height="318" rx="4" fill="#2867AD" stroke="none" stroke-width="1"/>
+<rect x="822" y="558" width="715" height="318" rx="22" fill="#E9EEF4" stroke="none" stroke-width="1"/>
+<rect x="820" y="554" width="715" height="318" rx="22" fill="#FFFFFF" stroke="#DFE6EE" stroke-width="1.6"/>
+<rect x="820" y="554" width="8" height="318" rx="4" fill="#117F76" stroke="none" stroke-width="1"/>
+<rect x="91" y="242" width="167" height="31" rx="15.5" fill="#FFF4F2" stroke="none" stroke-width="1"/>
+<text x="174.5" y="262.6" font-family="Inter, Inter Display, Arial, sans-serif" font-size="15" fill="#B94B47" font-weight="700" text-anchor="middle">01  FAILURE</text>
+<text x="91" y="309" font-family="Inter, Inter Display, Arial, sans-serif" font-size="27" fill="#142338" font-weight="700">Same zero, different mechanisms</text>
+<text x="91" y="338" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#617186" font-weight="400">A fixed early 256-question probe</text>
+<rect x="91" y="352" width="659" height="48" rx="9" fill="#F4F6F9" stroke="none" stroke-width="1"/>
+<rect x="100" y="365" width="4" height="23" rx="2" fill="#52647C" stroke="none" stroke-width="1"/>
+<text x="118" y="382" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#142338" font-weight="700">SFT BASELINE</text>
+<text x="390" y="383" font-family="Inter, Inter Display, Arial, sans-serif" font-size="20" fill="#52647C" font-weight="700" text-anchor="middle">0 / 256</text>
+<text x="525" y="382" font-family="Inter, Inter Display, Arial, sans-serif" font-size="18" fill="#142338" font-weight="400">256 refusals</text>
+<rect x="91" y="407" width="659" height="48" rx="9" fill="#FFF4F2" stroke="none" stroke-width="1"/>
+<rect x="100" y="420" width="4" height="23" rx="2" fill="#B94B47" stroke="none" stroke-width="1"/>
+<text x="118" y="437" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#142338" font-weight="700">ROUND 1 DPO</text>
+<text x="390" y="438" font-family="Inter, Inter Display, Arial, sans-serif" font-size="20" fill="#B94B47" font-weight="700" text-anchor="middle">0 / 256</text>
+<text x="525" y="437" font-family="Inter, Inter Display, Arial, sans-serif" font-size="18" fill="#142338" font-weight="400">256 format failures</text>
+<rect x="91" y="462" width="659" height="48" rx="9" fill="#FFF7EA" stroke="none" stroke-width="1"/>
+<rect x="100" y="475" width="4" height="23" rx="2" fill="#AA651B" stroke="none" stroke-width="1"/>
+<text x="118" y="492" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#142338" font-weight="700">ROUND 1A</text>
+<text x="390" y="493" font-family="Inter, Inter Display, Arial, sans-serif" font-size="20" fill="#AA651B" font-weight="700" text-anchor="middle">4 / 256</text>
+<text x="525" y="492" font-family="Inter, Inter Display, Arial, sans-serif" font-size="18" fill="#142338" font-weight="400">252 math errors</text>
+<rect x="848" y="242" width="191" height="31" rx="15.5" fill="#FFF7EA" stroke="none" stroke-width="1"/>
+<text x="943.5" y="262.6" font-family="Inter, Inter Display, Arial, sans-serif" font-size="15" fill="#AA651B" font-weight="700" text-anchor="middle">02  DIAGNOSIS</text>
+<text x="848" y="309" font-family="Inter, Inter Display, Arial, sans-serif" font-size="27" fill="#142338" font-weight="700">Stopping is not calculation</text>
+<text x="848" y="338" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#617186" font-weight="400">Separate diagnostic settings; distinct measured behaviors</text>
+<rect x="848" y="352" width="312" height="128" rx="12" fill="#FFF7EA" stroke="none" stroke-width="1"/>
+<rect x="1172" y="352" width="334" height="128" rx="12" fill="#F4F7FA" stroke="none" stroke-width="1"/>
+<text x="871" y="402" font-family="Inter, Inter Display, Arial, sans-serif" font-size="49" fill="#AA651B" font-weight="700">100%</text>
+<text x="871" y="432" font-family="Inter, Inter Display, Arial, sans-serif" font-size="18" fill="#142338" font-weight="700">Gold-period Top-1</text>
+<text x="871" y="456" font-family="Inter, Inter Display, Arial, sans-serif" font-size="15" fill="#617186" font-weight="400">Termination-aware, gamma = 1.0</text>
+<text x="1194" y="402" font-family="Inter, Inter Display, Arial, sans-serif" font-size="49" fill="#B94B47" font-weight="700">12.02%</text>
+<text x="1194" y="432" font-family="Inter, Inter Display, Arial, sans-serif" font-size="18" fill="#142338" font-weight="700">Gold-digit Top-1</text>
+<text x="1194" y="456" font-family="Inter, Inter Display, Arial, sans-serif" font-size="15" fill="#617186" font-weight="400">69 / 574 digit positions, Val256</text>
+<rect x="848" y="490" width="658" height="31" rx="8" fill="#FFFFFF" stroke="#DFE6EE" stroke-width="1"/>
+<text x="1177" y="511" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#142338" font-weight="700" text-anchor="middle">Correct stopping alone did not yield correct numerical digits.</text>
+<rect x="91" y="575" width="208" height="31" rx="15.5" fill="#EFF6FF" stroke="none" stroke-width="1"/>
+<text x="195.0" y="595.6" font-family="Inter, Inter Display, Arial, sans-serif" font-size="15" fill="#2867AD" font-weight="700" text-anchor="middle">03  INTERVENTION</text>
+<text x="91" y="641" font-family="Inter, Inter Display, Arial, sans-serif" font-size="27" fill="#142338" font-weight="700">Redesign the learning signal</text>
+<text x="91" y="669" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#617186" font-weight="400">Verified math preferences and staged continuation</text>
+<rect x="91" y="683" width="320" height="85" rx="10" fill="#EFF6FF" stroke="none" stroke-width="1"/>
+<rect x="425" y="683" width="325" height="85" rx="10" fill="#F3F7FD" stroke="none" stroke-width="1"/>
+<text x="109" y="727" font-family="Inter, Inter Display, Arial, sans-serif" font-size="38" fill="#2867AD" font-weight="700">100K</text>
+<text x="235" y="724" font-family="Inter, Inter Display, Arial, sans-serif" font-size="18" fill="#142338" font-weight="400">preference pairs</text>
+<text x="442" y="727" font-family="Inter, Inter Display, Arial, sans-serif" font-size="38" fill="#2867AD" font-weight="700">12</text>
+<text x="498" y="724" font-family="Inter, Inter Display, Arial, sans-serif" font-size="18" fill="#142338" font-weight="400">math task templates</text>
+<rect x="91" y="783" width="659" height="60" rx="10" fill="#FFFFFF" stroke="#DFE6EE" stroke-width="1"/>
+<text x="110" y="820" font-family="Inter, Inter Display, Arial, sans-serif" font-size="25" fill="#B94B47" font-weight="700">4 / 256</text>
+<text x="243" y="818" font-family="Inter, Inter Display, Arial, sans-serif" font-size="30" fill="#617186" font-weight="700">→</text>
+<text x="289" y="820" font-family="Inter, Inter Display, Arial, sans-serif" font-size="25" fill="#117F76" font-weight="700">103 / 256</text>
+<text x="466" y="817" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#142338" font-weight="700">Round 1C → Round 3</text>
+<text x="466" y="835" font-family="Inter, Inter Display, Arial, sans-serif" font-size="14" fill="#617186" font-weight="400">same early probe</text>
+<rect x="848" y="575" width="199" height="31" rx="15.5" fill="#EAF8F5" stroke="none" stroke-width="1"/>
+<text x="947.5" y="595.6" font-family="Inter, Inter Display, Arial, sans-serif" font-size="15" fill="#117F76" font-weight="700" text-anchor="middle">04  SELECTION</text>
+<text x="848" y="641" font-family="Inter, Inter Display, Arial, sans-serif" font-size="27" fill="#142338" font-weight="700">Compare strategies, then refine</text>
+<text x="848" y="669" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#617186" font-weight="400">Round 9 E1 variants on the same Val768 benchmark</text>
+<line x1="1256" y1="686" x2="1256" y2="827" stroke="#DFE6EE" stroke-width="2" stroke-linecap="round"/>
+<text x="853" y="708" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#142338" font-weight="700">Random</text>
+<rect x="951" y="693" width="200" height="17" rx="8" fill="#E9F0F4" stroke="none" stroke-width="1"/>
+<rect x="951" y="693" width="187.96747967479675" height="17" rx="8" fill="#117F76" stroke="none" stroke-width="1"/>
+<text x="1188" y="708" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#142338" font-weight="700" text-anchor="end">578</text>
+<text x="853" y="744" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#142338" font-weight="400">Replay</text>
+<rect x="951" y="729" width="200" height="17" rx="8" fill="#E9F0F4" stroke="none" stroke-width="1"/>
+<rect x="951" y="729" width="186.9918699186992" height="17" rx="8" fill="#7591A1" stroke="none" stroke-width="1"/>
+<text x="1188" y="744" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#142338" font-weight="700" text-anchor="end">575</text>
+<text x="853" y="780" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#142338" font-weight="400">Structured</text>
+<rect x="951" y="765" width="200" height="17" rx="8" fill="#E9F0F4" stroke="none" stroke-width="1"/>
+<rect x="951" y="765" width="186.0162601626016" height="17" rx="8" fill="#7591A1" stroke="none" stroke-width="1"/>
+<text x="1188" y="780" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#142338" font-weight="700" text-anchor="end">572</text>
+<text x="853" y="816" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#142338" font-weight="400">HardNeg</text>
+<rect x="951" y="801" width="200" height="17" rx="8" fill="#E9F0F4" stroke="none" stroke-width="1"/>
+<rect x="951" y="801" width="174.3089430894309" height="17" rx="8" fill="#7591A1" stroke="none" stroke-width="1"/>
+<text x="1188" y="816" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#142338" font-weight="700" text-anchor="end">536</text>
+<text x="853" y="855" font-family="Inter, Inter Display, Arial, sans-serif" font-size="15" fill="#617186" font-weight="400">Correct / 768  ·  Single E1 comparison</text>
+<text x="1275" y="714" font-family="Inter, Inter Display, Arial, sans-serif" font-size="16" fill="#117F76" font-weight="700">SELECTED E5</text>
+<text x="1273" y="768" font-family="Inter, Inter Display, Arial, sans-serif" font-size="42" fill="#087C63" font-weight="700">79.95%</text>
+<text x="1276" y="793" font-family="Inter, Inter Display, Arial, sans-serif" font-size="19" fill="#142338" font-weight="700">614 / 768</text>
+<text x="1276" y="816" font-family="Inter, Inter Display, Arial, sans-serif" font-size="15" fill="#617186" font-weight="400">Val768 (development)</text>
+<rect x="64" y="893" width="1471" height="143" rx="18" fill="#FFFFFF" stroke="#DFE6EE" stroke-width="1.6"/>
+<rect x="87" y="910" width="244" height="29" rx="14.5" fill="#F1F5F9" stroke="none" stroke-width="1"/>
+<text x="209.0" y="929.26" font-family="Inter, Inter Display, Arial, sans-serif" font-size="14" fill="#52647C" font-weight="700" text-anchor="middle">VAL768  ·  CHECKPOINTS</text>
+<text x="349" y="930" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#617186" font-weight="400">Same frozen evaluation; different sequential training stages</text>
+<line x1="170" y1="978" x2="1370" y2="978" stroke="#C5D6DF" stroke-width="4" stroke-linecap="round"/>
+<rect x="162" y="970" width="16" height="16" rx="8" fill="#99B1BE" stroke="none" stroke-width="1"/>
+<text x="170" y="967" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#52647C" font-weight="400" text-anchor="middle">Round 3</text>
+<text x="170" y="1010" font-family="Inter, Inter Display, Arial, sans-serif" font-size="20" fill="#142338" font-weight="700" text-anchor="middle">524/768  ·  68.23%</text>
+<rect x="462" y="970" width="16" height="16" rx="8" fill="#99B1BE" stroke="none" stroke-width="1"/>
+<text x="470" y="967" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#52647C" font-weight="400" text-anchor="middle">Round 5-A</text>
+<text x="470" y="1010" font-family="Inter, Inter Display, Arial, sans-serif" font-size="20" fill="#142338" font-weight="700" text-anchor="middle">560/768  ·  72.92%</text>
+<rect x="762" y="970" width="16" height="16" rx="8" fill="#99B1BE" stroke="none" stroke-width="1"/>
+<text x="770" y="967" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#52647C" font-weight="400" text-anchor="middle">Round 7</text>
+<text x="770" y="1010" font-family="Inter, Inter Display, Arial, sans-serif" font-size="20" fill="#142338" font-weight="700" text-anchor="middle">567/768  ·  73.83%</text>
+<rect x="1062" y="970" width="16" height="16" rx="8" fill="#99B1BE" stroke="none" stroke-width="1"/>
+<text x="1070" y="967" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#52647C" font-weight="400" text-anchor="middle">R9 Random E1</text>
+<text x="1070" y="1010" font-family="Inter, Inter Display, Arial, sans-serif" font-size="20" fill="#142338" font-weight="700" text-anchor="middle">578/768  ·  75.26%</text>
+<rect x="1362" y="970" width="16" height="16" rx="8" fill="#117F76" stroke="none" stroke-width="1"/>
+<text x="1370" y="967" font-family="Inter, Inter Display, Arial, sans-serif" font-size="17" fill="#117F76" font-weight="700" text-anchor="middle">R9 Random E5</text>
+<text x="1370" y="1010" font-family="Inter, Inter Display, Arial, sans-serif" font-size="20" fill="#117F76" font-weight="700" text-anchor="middle">614/768  ·  79.95%</text>
+<rect x="64" y="1050" width="1471" height="36" rx="8" fill="#EFF3F7" stroke="none" stroke-width="1"/>
+<text x="84" y="1073" font-family="Inter, Inter Display, Arial, sans-serif" font-size="15" fill="#52647C" font-weight="700">Interpretation</text>
+<text x="215" y="1073" font-family="Inter, Inter Display, Arial, sans-serif" font-size="15" fill="#52647C" font-weight="400">Distinct probes are not directly comparable; stage changes are not isolated causal ablations; all results are development evaluations.</text>
+</svg>

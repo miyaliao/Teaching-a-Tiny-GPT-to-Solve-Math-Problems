@@ -4,7 +4,7 @@
 
 **Preference Optimization · Data Synthesis · Failure Analysis**
 
-<img src="assets/badges.svg" width="560" alt="8.84M Parameters · PyTorch · 12 Math Templates" />
+<img src="assets/badges.svg" width="440" alt="8.84M Parameters · PyTorch · 12 Math Templates" />
 
 *A compact study of how structured preference data and staged fine-tuning can improve arithmetic and algebra performance in a character-level language model.*
 

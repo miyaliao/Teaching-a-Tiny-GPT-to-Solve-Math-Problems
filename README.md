@@ -64,7 +64,7 @@
 
 **The central challenge was not simply making the training loss smaller.** Early experiments exposed distinct failure modes: generating the required answer format, stopping at the right place, and producing correct numerical digits.
 
-<p align="center"><img src="assets/failure-to-improvement.svg" width="100%" alt="Failure, diagnosis, intervention, result flow" /></p>
+<p align="center"><img src="assets/experiment_journey_redesign.svg" width="100%" alt="From Refusal to Reasoning: experimental journey from refusal and format failures, through termination and numerical diagnostics, to structured preference training and checkpoint selection" /></p>
 
 | Observed issue | Diagnostic interpretation | Response in later experiments |
 |:--|:--|:--|

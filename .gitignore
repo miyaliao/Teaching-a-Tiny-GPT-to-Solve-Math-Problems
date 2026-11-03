@@ -1,0 +1,27 @@
+# Environment and Python caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large model checkpoints and intermediate training data
+*.pt
+*.pth
+*.ckpt
+dpo/data/
+dpo/experiments/
+dpo/pos_neg_pairs.json
+sft/
+
+# Logs, local archives and notebook backups
+*.out
+*.err
+*.log
+*.zip
+*.bak
+*.tmp
+dpo/dpo_before_*.ipynb
+dpo/dpo_submission_candidate.ipynb
+
+# OS
+.DS_Store

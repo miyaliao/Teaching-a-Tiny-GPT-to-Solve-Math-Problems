@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="569" height="58" viewBox="0 0 569 58" role="img" >
+<rect width="569" height="58" fill="#ffffff"/>
+<rect x="0" y="7" width="198" height="44" rx="22" fill="#f2f2f2"/>
+<text x="99.0" y="35" fill="#333333" font-family="Arial, Helvetica, sans-serif" text-anchor="middle" font-size="19">8.84M Parameters</text>
+<rect x="213" y="7" width="136" height="44" rx="22" fill="#f2f2f2"/>
+<text x="281.0" y="35" fill="#333333" font-family="Arial, Helvetica, sans-serif" text-anchor="middle" font-size="19">PyTorch</text>
+<rect x="364" y="7" width="205" height="44" rx="22" fill="#f2f2f2"/>
+<text x="466.5" y="35" fill="#333333" font-family="Arial, Helvetica, sans-serif" text-anchor="middle" font-size="19">12 Math Templates</text>
+</svg>

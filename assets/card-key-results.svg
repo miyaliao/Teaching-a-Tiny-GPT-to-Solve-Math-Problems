@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="168" viewBox="0 0 1200 168" role="img" >
+<rect width="1200" height="168" fill="#ffffff"/>
+<rect x="1" y="1" width="1198" height="166" rx="20" fill="#ffffff" stroke="#e4e4e4" stroke-width="2"/>
+<path d="M51 103 V58 M51 103 H102" fill="none" stroke="#686868" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="63" y="83" width="8" height="17" rx="3" fill="#727272"/>
+<rect x="77" y="69" width="8" height="31" rx="3" fill="#727272"/>
+<rect x="91" y="55" width="8" height="45" rx="3" fill="#727272"/>
+<text x="144" y="75" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="33" fill="#191919">01 · Key Results</text>
+<text x="144" y="119" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#676767">How did model accuracy evolve across checkpoints?</text>
+<rect x="951" y="55" width="219" height="49" rx="24.5" fill="#f1f1f1"/>
+<text x="1060" y="86" text-anchor="middle" fill="#393939" font-size="18" font-family="Arial, Helvetica, sans-serif">CHECKPOINTS</text>
+</svg>

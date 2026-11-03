@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" >
+<rect width="1200" height="410" fill="#ffffff"/>
+<rect x="1" y="1" width="1198" height="408" rx="22" fill="#ffffff" stroke="#e8e8e8" stroke-width="2"/>
+<text x="44" y="56" font-family="Arial" font-size="29" font-weight="700" fill="#1a1a1a">Data and multi-stage training pipeline</text>
+<text x="44" y="104" font-family="Arial" font-size="18" font-weight="700" fill="#777777">DATA</text>
+<text x="44" y="251" font-family="Arial" font-size="18" font-weight="700" fill="#777777">TRAINING</text>
+<rect x="170" y="121" width="217" height="95" rx="15" fill="#f6f6f6" stroke="#e1e1e1"/>
+<text x="187" y="158" font-family="Arial" font-size="19" font-weight="700" fill="#242424">Arithmetic facts</text>
+<text x="187" y="187" font-family="Arial" font-size="16" fill="#777777">Fact-level checks</text>
+<path d="M 395 168 H 412 M 405 161 L 413 168 L 405 175" stroke="#9f9f9f" fill="none" stroke-width="3"/>
+<rect x="422" y="121" width="217" height="95" rx="15" fill="#f1f1f1" stroke="#e1e1e1"/>
+<text x="439" y="158" font-family="Arial" font-size="19" font-weight="700" fill="#242424">12 templates</text>
+<text x="439" y="187" font-family="Arial" font-size="16" fill="#777777">Arithmetic + algebra</text>
+<path d="M 647 168 H 664 M 657 161 L 665 168 L 657 175" stroke="#9f9f9f" fill="none" stroke-width="3"/>
+<rect x="674" y="121" width="217" height="95" rx="15" fill="#eeeeee" stroke="#e1e1e1"/>
+<text x="691" y="158" font-family="Arial" font-size="19" font-weight="700" fill="#242424">Preference pairs</text>
+<text x="691" y="187" font-family="Arial" font-size="16" fill="#777777">100k at final stage</text>
+<path d="M 899 168 H 916 M 909 161 L 917 168 L 909 175" stroke="#9f9f9f" fill="none" stroke-width="3"/>
+<rect x="926" y="121" width="217" height="95" rx="15" fill="#eaeaea" stroke="#e1e1e1"/>
+<text x="943" y="158" font-family="Arial" font-size="19" font-weight="700" fill="#242424">Validation</text>
+<text x="943" y="187" font-family="Arial" font-size="16" fill="#777777">Math + tokenizer</text>
+<rect x="170" y="268" width="217" height="95" rx="15" fill="#f6f6f6" stroke="#e1e1e1"/>
+<text x="187" y="305" font-family="Arial" font-size="19" font-weight="700" fill="#242424">SFT NanoGPT</text>
+<text x="187" y="334" font-family="Arial" font-size="16" fill="#777777">8.84M parameters</text>
+<path d="M 395 315 H 412 M 405 308 L 413 315 L 405 322" stroke="#9f9f9f" fill="none" stroke-width="3"/>
+<rect x="422" y="268" width="217" height="95" rx="15" fill="#f1f1f1" stroke="#e1e1e1"/>
+<text x="439" y="305" font-family="Arial" font-size="19" font-weight="700" fill="#242424">Round 3</text>
+<text x="439" y="334" font-family="Arial" font-size="16" fill="#777777">5 epochs</text>
+<path d="M 647 315 H 664 M 657 308 L 665 315 L 657 322" stroke="#9f9f9f" fill="none" stroke-width="3"/>
+<rect x="674" y="268" width="217" height="95" rx="15" fill="#eeeeee" stroke="#e1e1e1"/>
+<text x="691" y="305" font-family="Arial" font-size="19" font-weight="700" fill="#242424">R4 · R5 · R7</text>
+<text x="691" y="334" font-family="Arial" font-size="16" fill="#777777">1 epoch each</text>
+<path d="M 899 315 H 916 M 909 308 L 917 315 L 909 322" stroke="#9f9f9f" fill="none" stroke-width="3"/>
+<rect x="926" y="268" width="217" height="95" rx="15" fill="#eaeaea" stroke="#e1e1e1"/>
+<text x="943" y="305" font-family="Arial" font-size="19" font-weight="700" fill="#242424">Round 9 Random</text>
+<text x="943" y="334" font-family="Arial" font-size="16" fill="#777777">5 epochs → E5</text>
+<text x="44" y="384" font-family="Arial" font-size="17" fill="#777777">7 sequential stages · 13 total epochs · Course preference objective (not reference-model DPO)</text>
+</svg>

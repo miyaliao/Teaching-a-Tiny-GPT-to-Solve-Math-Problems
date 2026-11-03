@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" >
+<rect width="1200" height="340" fill="#ffffff"/>
+<rect x="1" y="1" width="1198" height="338" rx="22" fill="#ffffff" stroke="#e8e8e8" stroke-width="2"/>
+<text x="46" y="53" font-family="Arial" font-size="27" font-weight="700" fill="#1a1a1a">From failure modes to a better training recipe</text>
+<rect x="45" y="92" width="257" height="178" rx="16" fill="#f5f5f5" stroke="#e6e6e6"/>
+<text x="65" y="130" font-family="Arial" font-size="18" font-weight="700" fill="#555555">01  FAILURE</text>
+<text x="65" y="184" font-family="Arial" font-size="21" font-weight="700" fill="#222222">Early runs struggled</text>
+<text x="65" y="216" font-family="Arial" font-size="20" fill="#444444">with output formatting</text>
+<path d="M 309 182 H 326 M 319 174 L 327 182 L 319 190" stroke="#9f9f9f" fill="none" stroke-width="3"/>
+<rect x="335" y="92" width="257" height="178" rx="16" fill="#f8f8f8" stroke="#e6e6e6"/>
+<text x="355" y="130" font-family="Arial" font-size="18" font-weight="700" fill="#555555">02  DIAGNOSIS</text>
+<text x="355" y="184" font-family="Arial" font-size="21" font-weight="700" fill="#222222">Termination and</text>
+<text x="355" y="216" font-family="Arial" font-size="20" fill="#444444">digit errors differ</text>
+<path d="M 599 182 H 616 M 609 174 L 617 182 L 609 190" stroke="#9f9f9f" fill="none" stroke-width="3"/>
+<rect x="625" y="92" width="257" height="178" rx="16" fill="#f4f4f4" stroke="#e6e6e6"/>
+<text x="645" y="130" font-family="Arial" font-size="18" font-weight="700" fill="#555555">03  INTERVENTION</text>
+<text x="645" y="184" font-family="Arial" font-size="21" font-weight="700" fill="#222222">Verified, structured</text>
+<text x="645" y="216" font-family="Arial" font-size="20" fill="#444444">math preference data</text>
+<path d="M 889 182 H 906 M 899 174 L 907 182 L 899 190" stroke="#9f9f9f" fill="none" stroke-width="3"/>
+<rect x="915" y="92" width="257" height="178" rx="16" fill="#eeeeee" stroke="#e6e6e6"/>
+<text x="935" y="130" font-family="Arial" font-size="18" font-weight="700" fill="#555555">04  OUTCOME</text>
+<text x="935" y="184" font-family="Arial" font-size="21" font-weight="700" fill="#222222">E5 reaches 79.95%</text>
+<text x="935" y="216" font-family="Arial" font-size="20" fill="#444444">on Val768</text>
+<text x="46" y="313" font-family="Arial" font-size="16" fill="#777777">Interpretation: the sequence documents engineering iterations, not an isolated causal ablation.</text>
+</svg>

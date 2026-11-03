@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="585" viewBox="0 0 1200 585" role="img" >
+<rect width="1200" height="585" fill="#ffffff"/>
+<rect x="1" y="1" width="1198" height="583" rx="22" fill="#ffffff" stroke="#e8e8e8" stroke-width="2"/>
+<text x="60" y="73" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#1a1a1a">Accuracy over training checkpoints</text>
+<text x="60" y="108" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#696969">Frozen Teacher680 · 680 questions · integer-answer accuracy</text>
+<line x1="120" y1="425.0" x2="1115" y2="425.0" stroke="#ececec" stroke-width="2"/>
+<text x="103" y="432.0" text-anchor="end" font-family="Arial" font-size="18" fill="#7e7e7e">60%</text>
+<line x1="120" y1="360.0" x2="1115" y2="360.0" stroke="#ececec" stroke-width="2"/>
+<text x="103" y="367.0" text-anchor="end" font-family="Arial" font-size="18" fill="#7e7e7e">65%</text>
+<line x1="120" y1="295.0" x2="1115" y2="295.0" stroke="#ececec" stroke-width="2"/>
+<text x="103" y="302.0" text-anchor="end" font-family="Arial" font-size="18" fill="#7e7e7e">70%</text>
+<line x1="120" y1="230.0" x2="1115" y2="230.0" stroke="#ececec" stroke-width="2"/>
+<text x="103" y="237.0" text-anchor="end" font-family="Arial" font-size="18" fill="#7e7e7e">75%</text>
+<line x1="120" y1="165.0" x2="1115" y2="165.0" stroke="#ececec" stroke-width="2"/>
+<text x="103" y="172.0" text-anchor="end" font-family="Arial" font-size="18" fill="#7e7e7e">80%</text>
+<path d="M 200,285.4 L 470,252.9 L 740,209.0" fill="none" stroke="#262626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="740" y1="209.0" x2="1010" y2="205.1" stroke="#999999" stroke-width="2" stroke-dasharray="8 7"/>
+<circle cx="200" cy="285.4" r="11" fill="#2b2b2b" stroke="#ffffff" stroke-width="3"/>
+<text x="200" y="258.4" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#1f1f1f">70.74%</text>
+<text x="200" y="467" font-family="Arial" font-size="19" text-anchor="middle" fill="#313131">Round 5</text>
+<text x="200" y="494" font-family="Arial" font-size="17" text-anchor="middle" fill="#878787">481 / 680</text>
+<circle cx="470" cy="252.9" r="11" fill="#2b2b2b" stroke="#ffffff" stroke-width="3"/>
+<text x="470" y="225.9" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#1f1f1f">73.24%</text>
+<text x="470" y="467" font-family="Arial" font-size="19" text-anchor="middle" fill="#313131">Round 7</text>
+<text x="470" y="494" font-family="Arial" font-size="17" text-anchor="middle" fill="#878787">498 / 680</text>
+<circle cx="740" cy="209.0" r="11" fill="#2b2b2b" stroke="#ffffff" stroke-width="3"/>
+<text x="740" y="182.0" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#1f1f1f">76.62%</text>
+<text x="740" y="467" font-family="Arial" font-size="19" text-anchor="middle" fill="#313131">Random E5</text>
+<text x="740" y="494" font-family="Arial" font-size="17" text-anchor="middle" fill="#878787">521 / 680</text>
+<circle cx="1010" cy="205.1" r="11" fill="#ffffff" stroke="#2b2b2b" stroke-width="4"/>
+<text x="1010" y="178.1" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#1f1f1f">76.91%</text>
+<text x="1010" y="467" font-family="Arial" font-size="19" text-anchor="middle" fill="#313131">Reproduced E5</text>
+<text x="1010" y="494" font-family="Arial" font-size="17" text-anchor="middle" fill="#878787">523 / 680</text>
+<line x1="120" y1="425" x2="1115" y2="425" stroke="#d4d4d4" stroke-width="2"/>
+<text x="60" y="535" font-family="Arial" font-size="17" fill="#787878">Y-axis shown from 60–80% to highlight differences; reproduced E5 is an independent rerun.</text>
+<text x="60" y="560" font-family="Arial" font-size="17" fill="#787878">Teacher680 includes historically seen mathematical facts; not a strictly unseen generalization test.</text>
+</svg>

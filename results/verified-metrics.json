@@ -1,0 +1,42 @@
+{
+  "source": "Frozen development evaluations and independent replay, November 2026",
+  "checkpoint_comparison_teacher680": [
+    {
+      "checkpoint": "Round 5 Original",
+      "correct": 481,
+      "total": 680
+    },
+    {
+      "checkpoint": "Round 7 Replay",
+      "correct": 498,
+      "total": 680
+    },
+    {
+      "checkpoint": "Round 9 Random E5",
+      "correct": 521,
+      "total": 680
+    },
+    {
+      "checkpoint": "Reproduced E5",
+      "correct": 523,
+      "total": 680
+    }
+  ],
+  "e5_comparison": {
+    "val768": {
+      "historical_correct": 614,
+      "reproduced_correct": 613,
+      "n": 768
+    },
+    "teacher680": {
+      "historical_correct": 521,
+      "reproduced_correct": 523,
+      "n": 680
+    }
+  },
+  "limitations": [
+    "Teacher680 contains seen math facts.",
+    "Weights are not bitwise-identical.",
+    "Private TA evaluation is unavailable."
+  ]
+}

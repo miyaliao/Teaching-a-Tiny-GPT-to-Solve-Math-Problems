@@ -37,8 +37,6 @@
 | Round 9 — Random E5 (selected) | 521 / 680 | **76.62%** |
 | Independently reproduced E5 | 523 / 680 | **76.91%** |
 
-### Skill-wise performance and error analysis
-
 <p align="center"><img src="assets/skill-wise-performance.png" width="100%" alt="Teacher680: accuracy, mathematical errors and format failures across arithmetic and equation categories for selected Random E5" /></p>
 
 *The selected historical Random E5 is evaluated on Teacher680 (n=680). The figure separates mathematical errors from format failures; category counts differ, and Teacher680 includes facts seen during historical training. This is a diagnostic breakdown, not evidence of strictly unseen-fact generalization.*

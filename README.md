@@ -66,23 +66,7 @@
 
 <p align="center"><img src="assets/experiment_journey_redesign.svg" width="100%" alt="From Refusal to Reasoning: experimental journey from refusal and format failures, through termination and numerical diagnostics, to structured preference training and checkpoint selection" /></p>
 
-| Observed issue | Diagnostic interpretation | Response in later experiments |
-|:--|:--|:--|
-| Early refusal-oriented training: 0/256 correct on a development probe | Preference training alone did not reliably yield well-formed answers | Revisited rejected completions and response structure |
-| Format and stopping behavior could improve without correct arithmetic | Surface compliance and mathematical correctness are different objectives | Added answer-focused/termination diagnostics and numerical grading |
-| Some arithmetic families and digit patterns remained weak | Memorized facts can outperform rule-based generalization | Used verified 12-template examples, staged continuation, and replay |
-
-**A remaining error in the selected model:**
-
-```text
-Prompt:       3*17=?
-Model output:  The answer is 41 because 3*17 equals 41.
-Correct:      51
-```
-
-The instructor's original eight printed prompts produced **6/8 correct answers**, or **4/5 distinct questions correct**. The duplicate multiplication question fails twice; those outputs are preserved rather than edited. This is a concrete reminder that strong development accuracy does not imply reliable arithmetic algorithms.
-
-These iterations describe the observed engineering process; because several training conditions changed over time, they should **not** be interpreted as a fully controlled causal ablation.
+The same **0/256** score concealed two very different failure modes: the SFT baseline refused every question, while the first preference-trained model produced unscorable outputs. Subsequent diagnostics showed that fixing answer formatting and termination did not automatically improve arithmetic, motivating verified math data, staged training, and comparisons of sampling strategies. The selected Random E5 reached **614/768 (79.95%) on Val768**; this diagram summarizes the engineering journey, **not a controlled causal ablation**.
 
 ---
 

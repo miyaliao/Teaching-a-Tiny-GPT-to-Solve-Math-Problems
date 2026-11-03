@@ -37,17 +37,6 @@
 | Round 9 — Random E5 (selected) | 521 / 680 | **76.62%** |
 | Independently reproduced E5 | 523 / 680 | **76.91%** |
 
-### Reproducibility: historical versus fresh E5
-
-| Frozen evaluation | Historical E5 | Reproduced E5 | Difference |
-|:--|--:|--:|--:|
-| Val768 | **614/768 (79.95%)** | 613/768 (79.82%) | −1 correct |
-| Teacher680 | 521/680 (76.62%) | **523/680 (76.91%)** | +2 correct |
-
-The **13-epoch, seven-stage replay completed successfully**. The newly trained model achieved nearly identical development accuracy, although checkpoint weights were **not bitwise identical** (maximum absolute parameter difference ≈ 0.01135). The final selected model remains the previously validated historical Random E5.
-
-> **Evaluation caveat:** Teacher680 includes mathematical facts encountered in historical training. It measures retention and competence on a fixed development suite, **not strictly unseen-fact generalization**. The course's private TA test was not used for model selection.
-
 ### Skill-wise performance and error analysis
 
 <p align="center"><img src="assets/skill-wise-performance.png" width="100%" alt="Teacher680: accuracy, mathematical errors and format failures across arithmetic and equation categories for selected Random E5" /></p>

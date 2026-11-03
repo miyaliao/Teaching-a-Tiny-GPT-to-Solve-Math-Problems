@@ -22,6 +22,12 @@
 
 ## Key Results
 
+### Final model at a glance
+
+<p align="center"><img src="assets/final-model-performance.png" width="100%" alt="Final selected Random E5: Val768 614/768 (79.95%) and Teacher680 521/680 (76.62%) under strict exact-match scoring" /></p>
+
+*Historical selected Round9 Random E5. These are two different development benchmarks, not a held-out final test; their percentages should not be interpreted as directly comparable.*
+
 **How did capability change across training iterations?** We compared selected checkpoints on the same frozen **Teacher680 development set**, then independently reran the selected E5 training procedure.
 
 <p align="center"><img src="assets/checkpoint-comparison.svg" width="100%" alt="Checkpoint comparison: Round5 481/680, Round7 498/680, historic Random E5 521/680, reproduced E5 523/680" /></p>
@@ -43,6 +49,12 @@
 The **13-epoch, seven-stage replay completed successfully**. The newly trained model achieved nearly identical development accuracy, although checkpoint weights were **not bitwise identical** (maximum absolute parameter difference ≈ 0.01135). The final selected model remains the previously validated historical Random E5.
 
 > **Evaluation caveat:** Teacher680 includes mathematical facts encountered in historical training. It measures retention and competence on a fixed development suite, **not strictly unseen-fact generalization**. The course's private TA test was not used for model selection.
+
+### Skill-wise performance and error analysis
+
+<p align="center"><img src="assets/skill-wise-performance.png" width="100%" alt="Teacher680: accuracy, mathematical errors and format failures across arithmetic and equation categories for selected Random E5" /></p>
+
+*The selected historical Random E5 is evaluated on Teacher680 (n=680). The figure separates mathematical errors from format failures; category counts differ, and Teacher680 includes facts seen during historical training. This is a diagnostic breakdown, not evidence of strictly unseen-fact generalization.*
 
 ---
 

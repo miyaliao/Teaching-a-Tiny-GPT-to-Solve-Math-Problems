@@ -11,7 +11,8 @@ __pycache__/
 dpo/data/
 dpo/experiments/
 dpo/pos_neg_pairs.json
-sft/
+sft/*
+!sft/meta.pkl
 
 # Logs, local archives and notebook backups
 *.out

@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1880"
+   height="878"
+   viewBox="0 0 1880 878"
+   role="img"
+   aria-label="Round 9 preference data construction: 12 math task families, detailed B0 through B3 operation-dependent strata, canonical fact filtering, selected random augmentation and final replay mix"
+   version="1.1"
+   id="svg61"
+   sodipodi:docname="round9-data-construction.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs61" />
+  <sodipodi:namedview
+     id="namedview61"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.80264142"
+     inkscape:cx="862.15336"
+     inkscape:cy="487.76451"
+     inkscape:window-width="2240"
+     inkscape:window-height="1294"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg61" />
+  <rect
+     x="0"
+     y="0"
+     width="1880"
+     height="878"
+     rx="0"
+     fill="#FFFFFF"
+     id="rect1" />
+  <rect
+     x="54"
+     y="79"
+     width="9"
+     height="72"
+     rx="5"
+     fill="#0a887c"
+     id="rect2" />
+  <text
+     x="90"
+     y="127"
+     font-family="Inter, 'Segoe UI', Arial, sans-serif"
+     font-size="48px"
+     fill="#19273d"
+     font-weight="700"
+     id="text2">Round 9 / Preference Data Construction</text>
+  <rect
+     x="50"
+     y="180"
+     width="400"
+     height="636"
+     rx="22"
+     fill="#FFFFFF"
+     stroke="#D9E3EC"
+     stroke-width="2"
+     id="rect4" />
+  <rect
+     x="476"
+     y="180"
+     width="845"
+     height="636"
+     rx="22"
+     fill="#FFFFFF"
+     stroke="#D9E3EC"
+     stroke-width="2"
+     id="rect5" />
+  <rect
+     x="1347"
+     y="180"
+     width="483"
+     height="636"
+     rx="22"
+     fill="#FFFFFF"
+     stroke="#D9E3EC"
+     stroke-width="2"
+     id="rect6" />
+  <line
+     x1="453"
+     y1="490"
+     x2="462"
+     y2="490"
+     stroke="#A4B7C8"
+     stroke-width="4"
+     stroke-linecap="round"
+     id="line6" />
+  <polygon
+     points="458,481 474,490 458,499"
+     fill="#A4B7C8"
+     id="polygon6" />
+  <line
+     x1="1325"
+     y1="490"
+     x2="1332"
+     y2="490"
+     stroke="#A4B7C8"
+     stroke-width="4"
+     stroke-linecap="round"
+     id="line7" />
+  <polygon
+     points="1328,481 1344,490 1328,499"
+     fill="#A4B7C8"
+     id="polygon7" />
+  <text
+     x="85.46067"
+     y="227.16391"
+     font-family="Inter, 'Segoe UI', Arial, sans-serif"
+     font-size="28.0562px"
+     fill="#0a887c"
+     font-weight="700"
+     letter-spacing="1.3"
+     id="text7"
+     transform="scale(0.95758714,1.0442914)"
+     style="stroke-width:1.27533">01 SKILL COVERAGE</text>
+  <text
+     x="83"
+     y="319"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="80"
+     fill="#19273D"
+     font-weight="700"
+     id="text8">12</text>
+  <text
+     x="200"
+     y="314"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="26"
+     fill="#19273D"
+     font-weight="700"
+     id="text9">math templates</text>
+  <line
+     x1="81"
+     y1="343"
+     x2="419"
+     y2="343"
+     stroke="#D9E3EC"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line9" />
+  <rect
+     x="80"
+     y="377"
+     width="54"
+     height="62"
+     rx="13"
+     fill="#EAF1F5"
+     id="rect9" />
+  <text
+     x="107"
+     y="418"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="32"
+     fill="#19273D"
+     font-weight="700"
+     text-anchor="middle"
+     id="text10">4</text>
+  <text
+     x="151"
+     y="405"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="24"
+     fill="#19273D"
+     font-weight="700"
+     id="text11">Basic arithmetic</text>
+  <text
+     x="151"
+     y="432"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="18"
+     fill="#63768E"
+     font-weight="400"
+     id="text12">Addition · Subtraction · × · ÷</text>
+  <rect
+     x="80"
+     y="474"
+     width="54"
+     height="62"
+     rx="13"
+     fill="#EAF1F5"
+     id="rect12" />
+  <text
+     x="107"
+     y="515"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="32"
+     fill="#19273D"
+     font-weight="700"
+     text-anchor="middle"
+     id="text13">4</text>
+  <text
+     x="151"
+     y="502"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="24"
+     fill="#19273D"
+     font-weight="700"
+     id="text14">Add/Sub equations</text>
+  <text
+     x="151"
+     y="529"
+     font-family="Inter, 'Segoe UI', Arial, sans-serif"
+     font-size="18px"
+     fill="#63768e"
+     font-weight="400"
+     id="text15">x + a = b · x - a = b</text>
+  <rect
+     x="80"
+     y="571"
+     width="54"
+     height="62"
+     rx="13"
+     fill="#EAF1F5"
+     id="rect15" />
+  <text
+     x="107"
+     y="612"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="32"
+     fill="#19273D"
+     font-weight="700"
+     text-anchor="middle"
+     id="text16">4</text>
+  <text
+     x="151"
+     y="599"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="24"
+     fill="#19273D"
+     font-weight="700"
+     id="text17">Mul/Div equations</text>
+  <text
+     x="151"
+     y="626"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="18"
+     fill="#63768E"
+     font-weight="400"
+     id="text18">x × a = b     ·     a ÷ x = b</text>
+  <line
+     x1="81"
+     y1="668"
+     x2="419"
+     y2="668"
+     stroke="#D9E3EC"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line18" />
+  <rect
+     x="80"
+     y="696"
+     width="340"
+     height="80"
+     rx="13"
+     fill="#F6F8FB"
+     id="rect18" />
+  <text
+     x="98"
+     y="732"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="25"
+     fill="#19273D"
+     font-weight="700"
+     id="text19">2,500 per skill</text>
+  <text
+     x="98"
+     y="762"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="18"
+     fill="#63768E"
+     font-weight="400"
+     id="text20">New Random augmentation: 30K</text>
+  <text
+     x="529.13391"
+     y="225.90369"
+     font-family="Inter, 'Segoe UI', Arial, sans-serif"
+     font-size="28.1605px"
+     fill="#0a887c"
+     font-weight="700"
+     letter-spacing="1.1"
+     id="text21"
+     transform="scale(0.95596687,1.0460614)"
+     style="stroke-width:1.28">02 DIFFICULTY STRATIFICATION</text>
+  <text
+     x="506"
+     y="285"
+     font-family="Inter, 'Segoe UI', Arial, sans-serif"
+     font-size="29px"
+     fill="#19273d"
+     font-weight="700"
+     id="text22">Four bins (B0–B3)</text>
+  <rect
+     x="506"
+     y="333"
+     width="785"
+     height="42"
+     rx="9"
+     fill="#F6F8FB"
+     id="rect23" />
+  <text
+     x="545"
+     y="361"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="17"
+     fill="#63768E"
+     font-weight="700"
+     text-anchor="middle"
+     id="text24">BIN</text>
+  <text
+     x="611"
+     y="361"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="17"
+     fill="#19273D"
+     font-weight="700"
+     id="text25">ADD / SUB  &amp;  EQUATIONS</text>
+  <text
+     x="972"
+     y="361"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="17"
+     fill="#19273D"
+     font-weight="700"
+     id="text26">MUL / DIV  &amp;  EQUATIONS</text>
+  <line
+     x1="942"
+     y1="335"
+     x2="942"
+     y2="703"
+     stroke="#E7EDF2"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line26" />
+  <rect
+     x="506"
+     y="385"
+     width="785"
+     height="72"
+     rx="7"
+     fill="#FBFCFD"
+     id="rect26" />
+  <rect
+     x="514"
+     y="398"
+     width="61"
+     height="43"
+     rx="10"
+     fill="#EAF1F5"
+     id="rect27" />
+  <text
+     x="544.5"
+     y="426"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="21"
+     fill="#19273D"
+     font-weight="700"
+     text-anchor="middle"
+     id="text27">B0</text>
+  <text
+     x="610"
+     y="412"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="20"
+     fill="#19273D"
+     font-weight="600"
+     id="text28">max(a, b) ≤ 30</text>
+  <text
+     x="610"
+     y="439"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="17"
+     fill="#63768E"
+     font-weight="400"
+     id="text29">no carry / borrow</text>
+  <text
+     x="972"
+     y="425"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="19"
+     fill="#19273D"
+     font-weight="500"
+     id="text30">product ≤ 99</text>
+  <rect
+     x="514"
+     y="476"
+     width="61"
+     height="43"
+     rx="10"
+     fill="#E8F7F3"
+     id="rect30" />
+  <text
+     x="544.5"
+     y="504"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="21"
+     fill="#0A887C"
+     font-weight="700"
+     text-anchor="middle"
+     id="text31">B1</text>
+  <text
+     x="610"
+     y="490"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="20"
+     fill="#19273D"
+     font-weight="600"
+     id="text32">max(a, b) ≤ 30</text>
+  <text
+     x="610"
+     y="517"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="17"
+     fill="#63768E"
+     font-weight="400"
+     id="text33">with carry / borrow</text>
+  <text
+     x="972"
+     y="503"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="19"
+     fill="#19273D"
+     font-weight="500"
+     id="text34">100–400; one factor ≤ 9</text>
+  <rect
+     x="506"
+     y="541"
+     width="785"
+     height="72"
+     rx="7"
+     fill="#FBFCFD"
+     id="rect34" />
+  <rect
+     x="514"
+     y="554"
+     width="61"
+     height="43"
+     rx="10"
+     fill="#EAF1F5"
+     id="rect35" />
+  <text
+     x="544.5"
+     y="582"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="21"
+     fill="#19273D"
+     font-weight="700"
+     text-anchor="middle"
+     id="text35">B2</text>
+  <text
+     x="610"
+     y="568"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="20"
+     fill="#19273D"
+     font-weight="600"
+     id="text36">max(a, b) &gt; 30</text>
+  <text
+     x="610"
+     y="595"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="17"
+     fill="#63768E"
+     font-weight="400"
+     id="text37">no carry / borrow</text>
+  <text
+     x="972"
+     y="581"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="19"
+     fill="#19273D"
+     font-weight="500"
+     id="text38">100–400; both factors ≥ 10</text>
+  <rect
+     x="514"
+     y="632"
+     width="61"
+     height="43"
+     rx="10"
+     fill="#E8F7F3"
+     id="rect38" />
+  <text
+     x="544.5"
+     y="660"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="21"
+     fill="#0A887C"
+     font-weight="700"
+     text-anchor="middle"
+     id="text39">B3</text>
+  <text
+     x="610"
+     y="646"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="20"
+     fill="#19273D"
+     font-weight="600"
+     id="text40">max(a, b) &gt; 30</text>
+  <text
+     x="610"
+     y="673"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="17"
+     fill="#63768E"
+     font-weight="400"
+     id="text41">with carry / borrow</text>
+  <text
+     x="972"
+     y="659"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="19"
+     fill="#19273D"
+     font-weight="500"
+     id="text42">product 401–999</text>
+  <rect
+     x="506"
+     y="706"
+     width="785"
+     height="81"
+     rx="14"
+     fill="#E8F7F3"
+     id="rect42" />
+  <rect
+     x="520"
+     y="726"
+     width="39"
+     height="39"
+     rx="20"
+     fill="#C7EDE5"
+     id="rect43" />
+  <text
+     x="539"
+     y="754"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="25"
+     fill="#0A887C"
+     font-weight="700"
+     text-anchor="middle"
+     id="text43">✓</text>
+  <text
+     x="572"
+     y="739"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="22"
+     fill="#0A887C"
+     font-weight="700"
+     id="text44">Canonical fact filtering</text>
+  <text
+     x="572"
+     y="766"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="17"
+     fill="#63768E"
+     font-weight="400"
+     id="text45">New samples only · seed 42 · protected eval facts excluded</text>
+  <text
+     x="1478.9606"
+     y="219.83936"
+     font-family="Inter, 'Segoe UI', Arial, sans-serif"
+     font-size="27.405px"
+     fill="#0a887c"
+     font-weight="700"
+     letter-spacing="0.6"
+     id="text46"
+     transform="scale(0.9303034,1.0749181)"
+     style="stroke-width:1.24572">03 SAMPLING &amp; FINAL SET</text>
+  <text
+     x="1376"
+     y="276"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="29"
+     fill="#19273D"
+     font-weight="700"
+     id="text47">30K new augmentation</text>
+  <text
+     x="1376"
+     y="304"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="18"
+     fill="#63768E"
+     font-weight="400"
+     id="text48">2,500 examples / skill</text>
+  <rect
+     x="1374"
+     y="329"
+     width="429"
+     height="80"
+     rx="13"
+     fill="#E8F7F3"
+     stroke="#A8DFD4"
+     stroke-width="1.2"
+     id="rect48" />
+  <rect
+     x="1390"
+     y="342"
+     width="145"
+     height="28"
+     rx="14"
+     fill="#C9EEE5"
+     id="rect49" />
+  <text
+     x="1462.5"
+     y="361.44"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="16"
+     fill="#0A887C"
+     font-weight="700"
+     text-anchor="middle"
+     id="text49">RANDOM  ✓</text>
+  <text
+     x="1390"
+     y="388"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="18"
+     fill="#19273D"
+     font-weight="500"
+     id="text50">Selected · no fixed bin quotas</text>
+  <rect
+     x="1374"
+     y="421"
+     width="429"
+     height="67"
+     rx="13"
+     fill="#F6F8FB"
+     stroke="#D9E3EC"
+     stroke-width="1"
+     id="rect50" />
+  <rect
+     x="1390"
+     y="434"
+     width="165"
+     height="27"
+     rx="13.5"
+     fill="#EAF1F5"
+     id="rect51" />
+  <text
+     x="1472.5"
+     y="452.6"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="15"
+     fill="#63768E"
+     font-weight="700"
+     text-anchor="middle"
+     id="text51">STRUCTURED</text>
+  <text
+     x="1390"
+     y="473"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="17"
+     fill="#63768E"
+     font-weight="500"
+     id="text52">Control · 625 / bin / skill</text>
+  <line
+     x1="1375"
+     y1="531"
+     x2="1802"
+     y2="531"
+     stroke="#d9e3ec"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line52" />
+  <text
+     x="1376"
+     y="575"
+     font-family="Inter, 'Segoe UI', Arial, sans-serif"
+     font-size="20px"
+     fill="#19273d"
+     font-weight="700"
+     letter-spacing="0.6"
+     id="text53">FINAL TRAINING SET</text>
+  <text
+     x="1378"
+     y="609"
+     font-family="Inter, 'Segoe UI', Arial, sans-serif"
+     font-size="20px"
+     fill="#19273d"
+     font-weight="700"
+     id="text54">70K replay</text>
+  <text
+     x="1799"
+     y="609"
+     font-family="Inter, 'Segoe UI', Arial, sans-serif"
+     font-size="20px"
+     fill="#0a887c"
+     font-weight="700"
+     text-anchor="end"
+     id="text55">30K new</text>
+  <rect
+     x="1376"
+     y="633"
+     width="425"
+     height="32"
+     rx="9"
+     fill="#edf2f6"
+     id="rect55" />
+  <rect
+     x="1376"
+     y="633"
+     width="297.5"
+     height="32"
+     rx="8"
+     fill="#19273d"
+     id="rect56" />
+  <rect
+     x="1673.5"
+     y="633"
+     width="127.5"
+     height="32"
+     rx="0"
+     fill="#0a887c"
+     id="rect57" />
+  <text
+     x="1376"
+     y="751"
+     font-family="Inter, 'Segoe UI', Arial, sans-serif"
+     font-size="66px"
+     fill="#19273d"
+     font-weight="700"
+     id="text57">100,000</text>
+  <text
+     x="1378"
+     y="778"
+     font-family="Inter, 'Segoe UI', Arial, sans-serif"
+     font-size="20px"
+     fill="#63768e"
+     font-weight="400"
+     id="text58">preference pairs · shuffled</text>
+  <text
+     x="151"
+     y="551"
+     font-family="Inter, 'Segoe UI', Arial, sans-serif"
+     font-size="18px"
+     fill="#63768e"
+     font-weight="400"
+     id="text62">a + x = b · a - x = b</text>
+  <text
+     x="151"
+     y="644"
+     font-family="Inter, 'Segoe UI', Arial, sans-serif"
+     font-size="18px"
+     fill="#63768e"
+     font-weight="400"
+     id="text63">a × x = b · x ÷ a = b</text>
+</svg>

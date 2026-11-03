@@ -30,12 +30,19 @@
 
 <p align="center"><img src="assets/checkpoint-comparison.svg" width="100%" alt="Checkpoint comparison: Round5 481/680, Round7 498/680, historic Random E5 521/680, reproduced E5 523/680" /></p>
 
-| Checkpoint | Teacher680 (correct / 680) | Accuracy |
-|:--|--:|--:|
-| Round 5 — Original | 481 / 680 | 70.74% |
-| Round 7 — Replay | 498 / 680 | 73.24% |
-| Round 9 — Random E5 (selected) | 521 / 680 | **76.62%** |
-| Independently reproduced E5 | 523 / 680 | **76.91%** |
+<div align="center">
+<table>
+  <thead>
+    <tr><th align="center">Checkpoint</th><th align="center">Teacher680 (correct / 680)</th><th align="center">Accuracy</th></tr>
+  </thead>
+  <tbody>
+    <tr><td align="center">Round 5 — Original</td><td align="center">481 / 680</td><td align="center">70.74%</td></tr>
+    <tr><td align="center">Round 7 — Replay</td><td align="center">498 / 680</td><td align="center">73.24%</td></tr>
+    <tr><td align="center">Round 9 — Random E5 (selected)</td><td align="center">521 / 680</td><td align="center"><strong>76.62%</strong></td></tr>
+    <tr><td align="center">Independently reproduced E5</td><td align="center">523 / 680</td><td align="center"><strong>76.91%</strong></td></tr>
+  </tbody>
+</table>
+</div>
 
 <p align="center"><img src="assets/skill-wise-performance.png" width="100%" alt="Teacher680: accuracy, mathematical errors and format failures across arithmetic and equation categories for selected Random E5" /></p>
 

@@ -72,7 +72,12 @@ The same **0/256** score concealed two very different failure modes: the SFT bas
 
 ## Methodology and Data
 
-<p align="center"><img src="assets/methodology-pipeline.svg" width="100%" alt="Verified facts to 12 templates to preference pairs, followed by the seven-stage NanoGPT training pipeline" /></p>
+<p align="center"><img src="assets/round9-data-construction.svg" width="100%" alt="Round 9 data construction: 12 math skills, difficulty-aware candidate pool, canonical fact filtering for new samples, Random versus Structured sampling, and 70K historical replay plus 30K new augmentation yielding 100K preference pairs" /></p>
+
+**Round 9 — Skill-Balanced Random Data Augmentation.** We constructed **100K preference pairs** by combining **70K historical Round 5 replay samples** with **30K newly synthesized examples (2,500 per skill across 12 math templates)**, followed by a common shuffle. The new candidates were organized into B0–B3 difficulty bins using operand size and carry/borrow for addition/subtraction, or product size and factor length for multiplication/division.
+
+We compared **Random** sampling with a **Structured** control drawn from the same candidate universe. Structured allocated 625 examples per difficulty bin per skill; the selected Random arm had **no fixed bin quotas**. Canonical math-fact filtering (seed 42) excluded protected evaluation facts from **new augmentation only**; historical replay may contain facts seen in Teacher680. [Round 9 data builder](https://github.com/miyaliao/SC3000-NanoGPT-Math/blob/sc3000-final-reproducible-notebook/scripts/build_round9_data.py).
+
 
 ### 1. Model and preference data
 
@@ -86,7 +91,7 @@ Chosen:    x*8=48,x=? The answer is 6 because 48/8 equals 6.
 Rejected:  x*8=48,x=? Sorry, I don't know.
 ```
 
-Data generation covers **12 arithmetic and algebra templates**: addition, subtraction, multiplication, division, and eight arrangements of one-variable equations. Examples are mathematically checked, and development partitions use canonical mathematical-fact keys to reduce fact overlap. The final Random-stage dataset contains **100,000** preference pairs.
+Preference data covers **12 arithmetic and algebra templates**: addition, subtraction, multiplication, division, and eight arrangements of one-variable equations. Chosen answers are mathematically verified; the original course-defined preference objective is used throughout the final training replay.
 
 ### 2. The training objective
 

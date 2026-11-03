@@ -116,7 +116,7 @@ Here, $\ell_+$ and $\ell_-$ are the chosen and rejected sequence log probabiliti
 
 ### Code and reproduction notes
 
-The validated, executed notebook records the full historical replay and the original instructor test outputs; it has not yet been added to this curated repository. This **portfolio repository is a curated showcase**, not the complete archive: a fresh historical replay also requires the original SFT checkpoint, the frozen stage datasets and manifests, supporting scripts, and the archived selected E5 checkpoint. Do not run the notebook with only the files shown here and expect the complete historical replay.
+The [source notebook](dpo/dpo.ipynb), [Python dependencies](requirements.txt), [historical data-method notes](docs/DATA_GENERATION.md), and [reproducibility guide](docs/REPRODUCIBILITY.md) are now included. The notebook is saved **without lengthy execution logs**, while the executed assignment copy is archived separately. This **portfolio repository is a curated showcase**, not a full 13-epoch replay archive: the original SFT checkpoint, frozen stage datasets/manifests, and historical weight lineage must be supplied separately.
 
 The selected model's development metrics are also saved in [`results/verified-metrics.json`](results/verified-metrics.json). Final model weights and the complete training archive are intentionally not bundled into this lightweight repository.
 

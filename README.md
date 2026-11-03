@@ -16,11 +16,17 @@
 
 <!-- The SVG panels act as clickable navigation cards on GitHub. -->
 
-<a href="#key-results"><img src="assets/card-key-results.svg" width="100%" alt="01 Key Results — How did model accuracy evolve across checkpoints?" /></a>
+<div align="center">
+<a href="#key-results"><img src="assets/card-key-results.svg" width="85%" alt="01 Key Results — How did model accuracy evolve across checkpoints?" /></a>
+</div>
 
-<a href="#what-went-wrong"><img src="assets/card-failure-analysis.svg" width="100%" alt="02 What Went Wrong — Failure to diagnosis to intervention to result" /></a>
+<div align="center">
+<a href="#what-went-wrong"><img src="assets/card-failure-analysis.svg" width="85%" alt="02 What Went Wrong — Failure to diagnosis to intervention to result" /></a>
+</div>
 
-<a href="#methodology-and-data"><img src="assets/card-methodology.svg" width="100%" alt="03 Methodology and Data — Preference pairs and training pipeline" /></a>
+<div align="center">
+<a href="#methodology-and-data"><img src="assets/card-methodology.svg" width="85%" alt="03 Methodology and Data — Preference pairs and training pipeline" /></a>
+</div>
 
 ---
 
